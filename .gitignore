@@ -1,0 +1,57 @@
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# ML models and checkpoints
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+*.ckpt
+*.tflite
+models/
+checkpoints/
+
+# Datasets
+data/
+datasets/
+
+# Cache/temp files
+*.cache
+*.tmp
+*.bak
+
+# Test coverage
+.pytest_cache/
+.coverage
+coverage.xml
+
+# System/OS files
+.DS_Store
+Thumbs.db
